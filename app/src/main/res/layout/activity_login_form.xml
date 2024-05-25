@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:textAlignment="textStart"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="135dp"
+        android:textSize="48sp"
+        style="@style/intro_textView"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/intro_textView"
+        android:textSize="24sp"
+        android:layout_marginTop="120dp"
+        android:textAlignment="textStart"
+        android:layout_marginStart="32dp"
+        android:text="@string/username" />
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="15dp"
+        android:imeOptions="actionNext"
+        android:background="@drawable/login_form_text_edit"
+        android:text="" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/intro_textView"
+        android:textSize="24sp"
+        android:textAlignment="textStart"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/password" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="15dp"
+        android:imeOptions="actionDone"
+        android:background="@drawable/login_form_text_edit"
+        android:importantForAutofill="no"/>
+
+    <TextView
+        android:id="@+id/login_warning_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/intro_textView"
+        android:textSize="20sp"
+        android:textAlignment="textStart"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login_btn_buat_akun"
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:elevation="10dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto_condensed_regular"
+            android:padding="10dp"
+            android:text="@string/buat_akun" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login_btn_masuk"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:elevation="10dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto_condensed_regular"
+            android:text="@string/masuk" />
+
+    </LinearLayout>
+</LinearLayout>

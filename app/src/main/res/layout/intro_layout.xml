@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="textStart">
+
+    <ImageView
+        android:id="@+id/intro_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        app:srcCompat="@drawable/intersect" />
+
+    <TextView
+        android:id="@+id/intro_textView1"
+        style="@style/intro_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:text="@string/we_are" />
+
+    <TextView
+        android:id="@+id/intro_textView2"
+        style="@style/intro_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:text="@string/profesional" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/intro_button"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/button_selector"
+        android:elevation="8dp"
+        android:drawableEnd="@drawable/right_arrow"
+        android:fontFamily="@font/roboto_light"
+        android:paddingStart="25dp"
+        android:paddingEnd="8dp"
+        android:text="@string/lewati"
+        android:textColor="@color/grey"
+        android:textSize="30sp"
+        android:textAllCaps="false"/>
+</LinearLayout>

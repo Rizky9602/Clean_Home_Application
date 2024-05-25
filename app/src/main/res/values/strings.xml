@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Clean_Home</string>
+
+    //intro
+    <string name="we_are">We Are</string>
+    <string name="profesional">Profesional Cleaning Home</string>
+    <string name="lewati">Lewati</string>
+
+    //login form
+    <string name="start">let’s start</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="buat_akun">Buat Akun</string>
+    <string name="masuk">Masuk</string>
+
+    //main form
+    <string name="sayHello">hallo user</string>
+    <string name="potongan">potongan harga sampai 80%</string>
+    <string name="ac_cleaning">AC Cleaning</string>
+    <string name="clean_sofa">Clean sofa fabric</string>
+    <string name="clean_sofa_leather">Clean sofa Leather</string>
+    <string name="clean_carpet">Cleaning carpet</string>
+    <string name="warning_text">username or password is wrong</string>
+
+    <string name="price_1">Rp 170.000</string>
+    <string name="price_2">Rp 200.000/seat</string>
+    <string name="price_3">Rp 300.000/seat</string>
+    <string name="price_4">Rp 100.000/m2</string>
+
+    //description product
+    <string name="description_sofa">
+        <b>Jasa pembersihan sofa fabric</b>\n\nkelebihan\n\nPertama, Dry vacum bertujuan untuk mengangkat debu-debu yang menempel pada sofa Anda, bertujuan debu-debu tidak ikut tergesek yang dapat menyebabkan kulit sofa Anda rusak.\n\nKedua, pemberian shampo untuk mengangkat kotoran-kotoran membandel yang ada pada sofa Anda. Proses ini bertujuan mengangkat debu-debu yang sudah berkerak sehingga sofa Anda akan bersih kembali. Selain itu, shampo yang kami gunakan juga mampu mengangkat kuman-kuman atau bakteri jahat yang menempel pada sofa Anda.\n\nKetiga, wet vacum dimana kami menyedot sisa-sisa shampo yang tercampur dengan kotoran. Pada tahap ini, seluruh kotoran pada sofa Anda akan terangkat sehingga sofa Anda menjadi bersih kembali. Jasa cuci sofa kami menggunakan shampo khusus untuk sofa yang tidak merusak kulit sofa Anda.\n\nKeempat, pemberian pewangi pada sofa menggunakan metode spraying. Kami menyediakan beberapa pilihan pewangi yang dapat Anda sesuaikan dengan selera Anda.\n\n
+    </string>
+    <string name="description_ac">
+        <b>Jasa Pembersihan AC</b>\n\nkelebihan\n\npertama, Kami memastikan AC Anda beroperasi dengan efisiensi maksimal. Dengan pembersihan yang teratur dan menyeluruh, AC Anda tidak perlu bekerja lebih keras, sehingga mengurangi konsumsi energi dan biaya listrik.\n\nKedua, Tim profesional kami menggunakan peralatan canggih untuk membersihkan filter dan komponen internal AC, menghilangkan debu, kuman, bakteri, dan alergen. Ini membantu meningkatkan kualitas udara di rumah atau kantor Anda, menjadikannya lebih sehat dan nyaman.\n\nKetiga, Dengan perawatan rutin dari kami, AC Anda akan lebih awet dan tahan lama. Pembersihan dan perawatan yang tepat mengurangi risiko kerusakan dan keausan, sehingga Anda bisa menikmati pendinginan optimal lebih lama tanpa khawatir tentang penggantian unit yang mahal.\n\nKeempat, AC yang bersih bekerja lebih efisien dan memberikan pendinginan yang lebih cepat serta merata. Kami memastikan setiap komponen AC Anda dalam kondisi terbaik, sehingga suhu ruangan mencapai tingkat kenyamanan yang diinginkan dengan cepat.\n\n
+    </string>
+    <string name="description_fabric">
+        <b>Jasa Pembersihan Sofa Fabric</b>\n\nkelebihan\n\nPertama, Kami memastikan sofa fabric Anda kembali tampil bersih dan segar seperti baru. Pembersihan profesional kami menghilangkan noda, kotoran, dan bau yang menumpuk, mengembalikan keindahan asli sofa Anda.\n\nKedua, Sofa fabric dapat menyerap debu, alergen, dan kuman dari lingkungan sekitarnya. Layanan pembersihan kami menghilangkan kontaminan ini, membantu meningkatkan kualitas udara di rumah Anda dan menciptakan lingkungan yang lebih sehat.\n\nKetiga, Perawatan rutin dari kami dapat memperpanjang umur sofa Anda. Pembersihan yang tepat mengurangi keausan dan kerusakan pada serat kain, sehingga sofa Anda tetap tahan lama dan nyaman digunakan.\n\nKeempat, Dengan perawatan yang tepat, Anda dapat menghindari biaya besar untuk penggantian sofa. Pembersihan rutin dari kami membantu menjaga kondisi sofa Anda tetap prima, sehingga Anda tidak perlu mengganti sofa lebih cepat dari seharusnya.\n\n
+    </string>
+    <string name="description_leahter">
+        <b>Jasa Pembersihan Sofa Leather</b>\n\nKelebihan\n\nPertama, Kami memastikan sofa leather Anda kembali tampil bersih dan berkilau seperti baru. Pembersihan profesional kami menghilangkan noda, kotoran, dan bekas minyak yang menumpuk, mengembalikan keindahan asli sofa Anda.\n\nkedua, Sofa leather dapat menyerap debu dan alergen dari lingkungan sekitarnya. Layanan pembersihan kami membantu menghilangkan kontaminan ini, meningkatkan kualitas udara di rumah Anda dan menciptakan lingkungan yang lebih sehat.\n\nKetiga, Perawatan rutin dari kami dapat memperpanjang umur sofa leather Anda. Pembersihan dan kondisioning yang tepat mengurangi risiko keretakan dan kekeringan pada kulit, sehingga sofa Anda tetap tahan lama dan nyaman digunakan.\n\nKeempat, Tim profesional kami menggunakan teknik dan produk pembersih yang aman dan efektif untuk membersihkan sofa leather Anda. Kami memastikan setiap bagian sofa Anda dibersihkan dengan sempurna, tanpa merusak atau mengeringkan kulit.\n\n
+    </string>
+    <string name="description_carpet">
+        <b>Jasa pembersihan Carpet</b>\n\nKelebihan\n\nPertama, Kami memastikan karpet Anda kembali tampak bersih dan segar seperti baru. Pembersihan profesional kami menghilangkan noda, kotoran, dan bau yang menumpuk, mengembalikan keindahan asli karpet Anda.\n\nKedua, Karpet dapat menyerap debu, alergen, dan kuman dari lingkungan sekitarnya. Layanan pembersihan kami menghilangkan kontaminan ini, membantu meningkatkan kualitas udara di rumah atau kantor Anda dan menciptakan lingkungan yang lebih sehat.\n\nKetiga, Perawatan rutin dari kami dapat memperpanjang umur karpet Anda. Pembersihan yang tepat mengurangi keausan pada serat karpet, sehingga karpet Anda tetap tahan lama dan nyaman digunakan.\n\nKeempat, Tim profesional kami menggunakan teknik dan produk pembersih yang aman dan efektif untuk membersihkan karpet Anda. Kami memastikan setiap serat karpet dibersihkan dengan sempurna, tanpa merusak material atau warna aslinya.\n\n
+    </string>
+    <string name="procced">Procced</string>
+
+    //bottom dialog
+    <string name="select_address">Select Address</string>
+    <string name="add_new_address">Add new address</string>
+</resources>

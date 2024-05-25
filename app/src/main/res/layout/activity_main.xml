@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.muriz.clean_home.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/blue"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    style="@style/navbar_button"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="25dp"
+                    app:srcCompat="@drawable/profil" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/roboto_condensed_regular"
+                    android:text="@string/sayHello"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    style="@style/navbar_button"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="90dp"
+                    android:background="@color/blue"
+                    app:srcCompat="@drawable/diskon" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    style="@style/navbar_button"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/blue"
+                    app:srcCompat="@drawable/chart" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    style="@style/navbar_button"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/blue"
+                    app:srcCompat="@drawable/shop" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    style="@style/navbar_button"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/blue"
+                    app:srcCompat="@drawable/search"/>
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="169dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/diskon_view" />
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:text="@string/potongan"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/main_ac"
+                    android:layout_width="170dp"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/border"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/imageView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:shapeAppearanceOverlay="@style/radius"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/image_border"
+                        app:srcCompat="@drawable/ac_cleaning" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ac_cleaning"
+                        android:textStyle="bold"
+                        android:layout_marginStart="12dp"
+                        android:fontFamily="@font/roboto_condensed_regular"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:fontFamily="@font/roboto_condensed_regular"
+                        android:text="@string/price_1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/main_plus_ac"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="15dp"
+                        style="@style/plus_button"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/main_fabric"
+                    android:layout_width="170dp"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/border"
+                    android:layout_marginStart="25dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/imageView43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:shapeAppearanceOverlay="@style/radius"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/image_border"
+                        app:srcCompat="@drawable/cleaning_sofa_fiber" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/clean_sofa"
+                        android:textStyle="bold"
+                        android:layout_marginStart="12dp"
+                        android:fontFamily="@font/roboto_condensed_regular"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/textView55"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:fontFamily="@font/roboto_condensed_regular"
+                        android:text="@string/price_2" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/main_plus_fabric"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="15dp"
+                        style="@style/plus_button" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/main_leather"
+                    android:layout_width="170dp"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/border"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/imageView49"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:shapeAppearanceOverlay="@style/radius"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/image_border"
+                        app:srcCompat="@drawable/cleaning_sofa_leather" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/clean_sofa_leather"
+                        android:textStyle="bold"
+                        android:layout_marginStart="12dp"
+                        android:fontFamily="@font/roboto_condensed_regular"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/textView53"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:fontFamily="@font/roboto_condensed_regular"
+                        android:text="@string/price_3" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/main_plus_leather"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="15dp"
+                        style="@style/plus_button" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/main_carpet"
+                    android:layout_width="170dp"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/border"
+                    android:layout_marginStart="25dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/image_border"
+                        app:shapeAppearanceOverlay="@style/radius"
+                        app:srcCompat="@drawable/cleaning_carpet" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/clean_carpet"
+                        android:textStyle="bold"
+                        android:layout_marginStart="12dp"
+                        android:fontFamily="@font/roboto_condensed_regular"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:fontFamily="@font/roboto_condensed_regular"
+                        android:text="@string/price_4" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/main_plus_carpet"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="15dp"
+                        style="@style/plus_button"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
