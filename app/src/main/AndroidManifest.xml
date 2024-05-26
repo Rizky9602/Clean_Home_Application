@@ -27,7 +27,7 @@
         <activity android:name="com.muriz.clean_home.IntroActivity"
             android:exported="false"/>
         <activity
-            android:name="com.MuRiz.clean_home.com.muriz.clean_home.SplashActivity"
+            android:name="com.muriz.clean_home.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

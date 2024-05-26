@@ -4,12 +4,9 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
-import androidx.drawerlayout.widget.DrawerLayout
 import com.MuRiz.clean_home.R
 
 class MainActivity : AppCompatActivity() {
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
