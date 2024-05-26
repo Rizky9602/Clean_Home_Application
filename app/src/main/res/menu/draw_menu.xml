@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
+    <item
+        android:id="@+id/draw_profile"
+        android:title="@string/profile"/>
+    <item
+        android:id="@+id/draw_pemesanan"
+        android:title="@string/pemesanan"/>
+    <item
+        android:id="@+id/draw_pengaturan"
+        android:title="@string/pengaturan"/>
+    <item
+        android:id="@+id/draw_bantuan"
+        android:title="@string/bantuan"/>
+    <item
+        android:id="@+id/draw_keluar"
+        android:title="@string/keluar"/>
 </menu>

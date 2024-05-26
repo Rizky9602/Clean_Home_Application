@@ -48,4 +48,12 @@
     //bottom dialog
     <string name="select_address">Select Address</string>
     <string name="add_new_address">Add new address</string>
+
+    //draw dialog
+    <string name="profile">Profile</string>
+    <string name="pemesanan">Pemesanan</string>
+    <string name="pengaturan">pengaturan</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="Penilaian">penilain</string>
+    <string name="keluar">Keluar</string>
 </resources>

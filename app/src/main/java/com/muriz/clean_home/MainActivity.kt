@@ -4,9 +4,11 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
+import androidx.drawerlayout.widget.DrawerLayout
 import com.MuRiz.clean_home.R
 
 class MainActivity : AppCompatActivity() {
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         val fabricLayout = findViewById<LinearLayout>(R.id.main_fabric)
         val leatherLayout = findViewById<LinearLayout>(R.id.main_leather)
         val carpetLayout = findViewById<LinearLayout>(R.id.main_carpet)
+
 
         acLayout.setOnClickListener{
             val intent = Intent(this,DescriptionActivity::class.java)
